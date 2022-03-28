@@ -1,0 +1,357 @@
+.pokedex-info{
+    background: #E5E5E5;
+    height: 100vh;
+}
+
+html{
+    background-color: #E5E5E5;
+}
+
+.top-info{
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    height: 5rem;
+    width: 100vw;
+}
+
+.pokedex-banner-info{
+    position: fixed;
+    left: 10%;
+    top: 4%;
+    z-index: 3;
+    width: 12rem;
+}
+
+.pokeball-info{
+    margin: 0;
+    position: fixed;
+    width: 70px;
+    z-index: 1;
+    top: 5.5%;
+    left: 74%;
+    right: 0;
+    margin: auto;
+}
+
+.top-info .rectangle150{
+    width: 100%;
+    height: 80px;
+    left: 0px;
+    top: 0;
+    background: #DD1A1A;
+  }
+
+.top-info .rectangle151{
+    position: fixed;
+    width: 100%;
+    height: 30px;
+    left: 0px;
+    top: 9%;
+    background: #0c0c0c;
+}
+
+.pokemon-info-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10rem auto 3rem auto;
+    width: 75%;
+    height: 90rem;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.pokemon-image-info{
+    bottom: 3%;
+    position: relative;
+    width: 80%;
+    max-width: 341px;
+    margin: 0;
+    height: 80%;
+    max-height: 314px;
+}
+
+.id-pokemon-info{
+    font-size: 40px;
+    line-height: 47px;
+    font-weight: 500;
+    width: 50%;
+    height: 54px;
+    border: 1px solid #D3D3D3;
+    border-radius: 2px;
+    margin-bottom: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.info-pokemon-name-withhr{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.info-pokemon-name{
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+
+.hr-info{
+    border: 0.5px solid #9F9F9F;
+    background-color: #E5E5E5;
+    color: #E5E5E5;
+    height: 0px;
+    width: 25%;
+}
+
+.pokemon-information-info{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 50%;
+}
+
+.weight-text, .height-text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #0F0F2D;
+    font-family: 'Roboto', sans-serif;
+}
+
+.weight-data, .height-data{
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 29px;
+    color: #0F0F2D;
+    font-family: 'Roboto', sans-serif;
+} 
+
+.pokemon-stats-1{
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.type-stats-info{
+    width: 50%;
+}
+
+.skills-stats-info{
+    margin-top: 1.5rem;
+    width: 50%;
+}
+
+.title-type-stats, .title-skills-stats{
+    font-size: 30px;
+    line-height: 35.16px;
+    font-weight: 500;
+    color: #302F2F;
+    margin-bottom: 1.5rem;
+}
+
+.pokemon-type-info{
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.pokemon-info-text{
+    width: 150px;
+    height: 47px;
+    color: #FFFFFF;
+    border-radius: 2px;
+    background: #6C3D9A;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.pokemon-skills-text{
+    width: 150px;
+    height: 47px;
+    color: #302F2F;
+    border-radius: 2px;
+    background: #D3D3D3;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #D3D3D3;
+}
+
+.pokemon-type-info p{
+    padding: 1rem;
+    width: 200px;
+    font-size: 14px;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+}
+
+.stats-container{
+    width: 100%;
+}
+
+.stats-bar-top{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.stats-bar-top p{
+    font-size: 45px;
+}
+
+.stats-bar-top img{
+    width: 70px;
+    margin: 0;
+}
+
+.hr-stats-container{
+    border: 1px solid #D3D3D3;
+    height: 0px;
+    width: 80%;
+}
+  
+@keyframes moveToRight {
+    from {
+      left: 90%;
+    }
+    to {
+      left: 100%;
+    }
+  }
+
+  .progress-outer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+  .progress-info {
+    width: 30px;
+    padding-left: 5px;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .progress {
+    width: 60%;
+    background: #eee;
+    min-height: 1px;
+    overflow: hidden;
+    border-radius: 3px;
+  }
+  
+  .progress.progress--large {
+    height: 34px;
+  }
+  .progress-bar {
+    background: linear-gradient(90deg, #FCD676 -2.25%, #E6901E 133.18%);
+    height: 100%;
+    border-radius: 4px;
+  }
+
+.movements-pokemon{
+    width: 75%;
+    height: 722px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto 5rem auto;
+}
+
+.pokemon-moves{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+    justify-content: center;
+}
+
+.pokemon-moves-text{
+    font-size: 10px;
+    width: 100px;
+    height: 30px;
+    background-color: #6C3D9A;
+    color: #FFFFFF;
+}
+
+.footer-info{
+    width: 100%;
+    height: 10px;
+    background-color: #E5E5E5;
+}
+  
+@media only screen and (min-width: 375px){
+    .pokemon-info-card{
+        height: 95rem;
+    }
+}
+
+@media only screen and (min-width: 768px){
+
+    .pokemon-info-card{
+        height: 78rem;
+    }
+
+    .id-pokemon-info{
+        width: 30%;
+    }
+
+    .pokedex-banner-info{
+        width: 23rem;
+        top: 1%;
+    }
+
+    .info-pokemon-name{
+        font-size: 45px;
+    }
+
+    .pokemon-information-info{
+        gap: 6rem;
+    }
+
+    .pokemon-stats-1{
+        flex-direction: row;
+    }
+
+    .skills-stats-info{
+        margin: 0;
+    }
+    
+    .pokemon-info-text, .pokemon-skills-text{
+        margin: 0;
+    }
+    
+    .pokemon-type-info p{
+        padding: 0;
+        width: 130px;
+        font-size: 16.6px;
+    }
+
+    .stats-bar-top{
+        flex-direction: row;
+    }
+
+    .hr-stats-container{
+        width: 55%;
+    }
+
+}

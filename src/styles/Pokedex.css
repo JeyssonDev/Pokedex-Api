@@ -1,0 +1,163 @@
+.Pokedex{
+    background: #E5E5E5;
+    height: 100%;
+}
+
+.top .rectangle145{
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    left: 0px;
+    top: 0;
+    background: #DD1A1A;
+    z-index: 1;
+  }
+
+.top  .rectangle146{
+    z-index: 2;
+    position: fixed;
+    width: 100%;
+    height: 30px;
+    left: 0px;
+    top: 9%;
+    background: #0c0c0c;
+  }
+
+.pokedex-banner{
+    z-index: 3;
+    position: fixed;
+    left: 10%;
+    top: 4%;
+    width: 12rem;
+}
+
+.top img{
+    margin: 0;
+    position: fixed;
+    width: 70px;
+    z-index: 1;
+    top: 5.5%;
+    left: 74%;
+    right: 0;
+    margin: auto;
+    z-index: 3;
+  }
+
+.welcome-message{
+    padding-top: 7rem;
+    text-align: left;
+    margin-left: 10%;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.welcome-message span{
+    color: #FE1936;
+}
+
+.inputs-pokemons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pokemons-select{
+    width: 76%;
+    max-width: 528px;
+    text-align: center;
+    height: 40px;
+    /* margin-left: 10%; */
+}
+
+.search-form{
+    margin-top: 2rem;
+    /* margin-left: 10%; */
+    width: 78%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.input-search{
+  width: 78%;
+  height: 40px;
+  font-size: 17px;
+  border: none;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+.search-button{
+  background: #D33F3F;
+  color: #FFFFFF;
+  font-size: 17px;
+  width: 80px;
+  max-width: 209.21px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+}
+
+.search-button:hover{
+  background: #c92222;
+}
+
+.ul-pokemons{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.inputs-pokemons select{
+    color: #0F0F2D;
+    font-size: 18px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
+    border: none;
+}
+
+.inputs-pokemons select option{
+    color: #0F0F2D;
+    font-size: 18px;
+    line-height: 21.09px;
+    font-weight: 400;
+    text-transform: capitalize;
+    text-align: left;
+}
+
+@media only screen and (min-width: 768px){
+    .pokedex-banner{
+        width: 23rem;
+        top: 1%;
+    }
+
+    .search-form{
+        width: 55%;
+        height: 68px;
+    }
+    .input-search{
+        font-size: 20px;
+        width: 75%;
+        height: 68px;
+    }
+    .search-button{
+        width: 209.21px;
+        height: 68px;
+        font-size: 24px;
+    }
+
+    .pokemons-select{
+        margin-left: 5%;
+        width: 20%;
+        height: 68px;
+    }
+
+    .inputs-pokemons{
+        flex-direction: row;
+        align-items: flex-end;
+    }
+}
+
