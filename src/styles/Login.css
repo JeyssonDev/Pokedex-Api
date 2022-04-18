@@ -1,4 +1,4 @@
-.login{
+.login {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -6,79 +6,78 @@
     align-items: center;
     height: 100vh;
     position: relative;
-    background: #E5E5E5;
+    background: #e5e5e5;
 }
 
-img{
+img {
     width: 95%;
     max-width: 676px;
     margin-bottom: 2rem;
 }
 
-
-.welcome-text{
-    font-family: 'Inter', sans-serif;
+.welcome-text {
+    font-family: "Inter", sans-serif;
     font-size: 50px;
     font-weight: 700;
     line-height: 61px;
-    color: #FE1936;
-  }
-  
-  p{
-    color: #302F2F;
+    color: #fe1936;
+}
+
+p {
+    color: #302f2f;
     font-size: 25px;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 500;
     line-height: 30px;
-  }
-  
-  form{
-      margin-top: 3rem;
-      width: 300px;
-      height: 50px;
-      display: flex;
-  }
+}
 
-  input{
+form {
+    margin-top: 3rem;
+    width: 300px;
+    height: 50px;
+    display: flex;
+}
+
+input {
     width: 200px;
     height: 40px;
     font-size: 25px;
-  }
-  
-  .begin-button{
-    background: #D33F3F;
-    color: #FFFFFF;
+}
+
+.begin-button {
+    background: #d33f3f;
+    color: #ffffff;
     font-size: 24px;
     width: 100px;
     max-width: 209.21px;
     height: 40px;
     border: none;
     cursor: pointer;
-  }
+}
 
-  .begin-button:hover{
+.begin-button:hover {
     background: #c92222;
-  }
+}
 
-  .rectangle147{
+.rectangle147 {
     position: absolute;
     width: 100%;
     height: 80px;
     left: 0px;
     bottom: 0;
-    background: #DD1A1A;
-  }
+    background: #dd1a1a;
+}
 
-  .rectangle148{
+.rectangle148 {
     position: absolute;
     width: 100%;
     height: 30px;
     left: 0px;
     bottom: 0;
     background: #0c0c0c;
-  }
+}
 
-  .footer img{
+.footer img {
     margin: 0;
     position: absolute;
     width: 58px;
@@ -87,18 +86,18 @@ img{
     left: 0;
     right: 0;
     margin: auto;
-  }
-  
-@media screen and (min-width: 768px){
-    form{
+}
+
+@media screen and (min-width: 768px) {
+    form {
         width: 671px;
         height: 68px;
     }
-    input{
+    input {
         width: 671px;
         height: 68px;
     }
-    .begin-button{
+    .begin-button {
         width: 209.21px;
         height: 68px;
     }
